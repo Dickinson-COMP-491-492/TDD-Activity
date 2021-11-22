@@ -7,5 +7,7 @@ public class PasswordTest {
 	@Test
 	public void MakeDefaultPassword() {
 		Password pass = new Password();
+		assertEquals("Default password not set correctly",
+				pass.getPassword(), "abc123");
 	}
 }
