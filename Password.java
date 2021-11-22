@@ -7,6 +7,10 @@ public class Password {
 		passwd = "password";
 	}
 	
+	public Password(String clientPW) {
+		passwd = clientPW;
+	}
+	
 	public String getPassword() {
 		return passwd;
 	}
