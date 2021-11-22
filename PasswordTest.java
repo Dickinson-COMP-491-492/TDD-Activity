@@ -17,4 +17,14 @@ public class PasswordTest {
 		assertEquals("Client specified password not correct",
 				pass.getPassword(), "N@tMy&ctua1PassWd!");
 	}
+	
+	@Test
+	public void PasswordMustBeLongerThan8Chars() {
+		try {
+			new Password("ThisIs7");
+			fail("Password ThisIs7 is too short, creation should fail");
+		}
+		catch(IllegalArgumentException e) {		
+		}
+	}
 }
