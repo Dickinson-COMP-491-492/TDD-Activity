@@ -10,4 +10,11 @@ public class PasswordTest {
 		assertEquals("Default password not set correctly",
 				pass.getPassword(), "password");
 	}
+	
+	@Test
+	public void MakeClientSpecifiedPassword() {
+		Password pass = new Password("N@tMy&ctua1PassWd!");
+		assertEquals("Client specified password not correct",
+				pass.getPassword(), "N@tMy&ctua1PassWd!");
+	}
 }
