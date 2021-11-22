@@ -8,6 +8,6 @@ public class PasswordTest {
 	public void MakeDefaultPassword() {
 		Password pass = new Password();
 		assertEquals("Default password not set correctly",
-				pass.getPassword(), "abc123");
+				pass.getPassword(), "password");
 	}
 }
