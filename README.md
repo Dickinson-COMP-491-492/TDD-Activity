@@ -6,15 +6,15 @@ An activity for illustrating / practicing TDD.
 
 The commits to this repository are as follows:
 
-- 5b9c418 Initial commit
-- 6c69861 Create README.md
-- eee8ae1 Added test for default Password
-- 45e9530 Finished test for default Password
-- c1a234f Wrote Password class to pass first test
-- 9970376 Corrected test for default password
-- f3cf2b3 Wrote test for client specified password
-- 372d1e6 Added constructor for client password
-- de9e6c9 Added test for password too short
+- `5b9c418` Initial commit
+- `6c69861` Create README.md
+- `eee8ae1` Added test for default Password
+- `45e9530` Finished test for default Password
+- `c1a234f` Wrote Password class to pass first test
+- `9970376` Corrected test for default password
+- `f3cf2b3` Wrote test for client specified password
+- `372d1e6` Added constructor for client password
+- `de9e6c9` Added test for password too short
 
 These commits follow a TDD approach, first creating the tests and then adding
 the code that allows the test to pass.  You can view the code in any state using
