@@ -45,4 +45,9 @@ following additional requirements:
   - one capital letter
   - one lower case letter
   - one special character (!@#$5^&*) 
-  - Anything else you might want to add...
+- Provide a way to change the password
+  - Ensure it enforces the above constraints
+  - Refactor code and tests as necessary 
+- Make which of the above constraints apply configurable.
+  - Refactor code and test as necessary.
+- Anything else you might think of for more practice...
